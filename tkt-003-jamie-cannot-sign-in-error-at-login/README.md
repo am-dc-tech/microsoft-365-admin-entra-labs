@@ -1,4 +1,4 @@
-# Microsoft Admin Lab: Blocked Account Troubleshooting (Jamie Randle)
+# Microsoft 365 Lab: Account Lockout — Jamie Randle
 
 ## Summary
 

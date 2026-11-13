@@ -1,4 +1,4 @@
-# Microsoft 365 Onboarding Lab
+# Microsoft 365 Lab: User Onboarding — Alice Adams, Bob Baker & Carol Chen
 
 A hands-on lab for onboarding a small organization to Microsoft 365 using the Admin Center and Entra ID 
 

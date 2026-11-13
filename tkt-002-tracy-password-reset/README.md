@@ -1,4 +1,4 @@
-# Microsoft Admin Center Ticket Lab : Password Reset (Tracy)
+# Microsoft 365 Lab: (Tracy Dalhousie)
 
 ## Summary 
 

@@ -1,4 +1,4 @@
-# Microsoft Admin Center Ticket Lab: Missing License and Escalation (Pablo Marquez)
+# Microsoft 365 Lab: (Pablo Marquez)
 
 ## Summary
 
