@@ -1,4 +1,4 @@
-# Microsoft 365 Lab: (Tracy Dalhousie)
+# Microsoft 365 Lab: Password Reset — Tracy Dalhousie
 
 ## Summary 
 

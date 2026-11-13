@@ -1,4 +1,4 @@
-# Microsoft 365 Lab: (Pablo Marquez)
+# Microsoft 365 Lab: License Escalation — Pablo Marquez
 
 ## Summary
 
