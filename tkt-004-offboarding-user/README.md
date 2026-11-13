@@ -45,12 +45,12 @@ his license to complete a secure offboarding.
 
 7. Locate the shared mailbox → remove **Bob Baker** from membership
 
-<img width="496" height="713" alt="4 remove-user-from-shared-mailbox" src="https://github.com/user-attachments/assets/4fadee1e-10e5-403c-b21e-781d75194538" />
+<img width="676" height="288" alt="4 remove-from-group" src="https://github.com/user-attachments/assets/cf4d3ec4-f710-4ee2-b09e-eff96dd96a4b" />
 
 
 8. Verify he is no longer listed
 
-<img width="676" height="288" alt="5 remove-from-group" src="https://github.com/user-attachments/assets/453ec8a8-971f-41ce-b360-d05e82429e81" />
+<img width="496" height="713" alt="5 remove-user-from-shared-mailbox" src="https://github.com/user-attachments/assets/12b110a4-821d-4dad-a907-ee99517bf1bd" />
 
 
 
