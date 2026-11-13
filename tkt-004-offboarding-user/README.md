@@ -2,72 +2,67 @@
 
 ## Summary
 
-A hands-on lab simulating the offboarding process for a departing employee in a 
-Microsoft 365 environment. This lab covers blocking sign-in, removing shared mailbox 
-access, and unassigning a license using the Microsoft 365 Admin Center and Entra ID.
+A hands-on lab simulating the offboarding of a departing employee using Microsoft 365 
+Admin Center and Microsoft Entra Admin Center. This lab covers blocking sign-in, 
+revoking active sessions, removing shared mailbox access, and unassigning a license.
 
 ## Environment
 
-- Platform: Microsoft 365 Admin Center / Microsoft Entra Admin Center
+- Platform: Microsoft 365 Admin Center · Microsoft Entra Admin Center
 - Role: Tier 1 IT Administrator
 - User Being Offboarded: Bob Baker
 
 ## Scenario
 
 Bob Baker is leaving the organization. As the IT administrator, I need to secure his 
-account, remove his access to the shared mailbox, unassign his license, and confirm 
-the account is in a secure offboarded state.
+account, revoke his active sessions, remove his shared mailbox access, and unassign 
+his license to complete a secure offboarding.
 
 ## Steps
 
 1. Open Microsoft 365 Admin Center → **Users > Active Users**
-2. Locate and select **Bob Baker**
-3. Review his profile, assigned license, and account status
-4. **Block sign-in** for Bob Baker and confirm the account is blocked
+2. Select **Bob Baker** and **block sign-in** — confirm the account is blocked
 
-5. Go to **Teams & Groups > Active Teams & Groups**
-6. Locate the shared mailbox Bob had access to
-7. Open the mailbox membership settings and **remove Bob Baker**
-8. Verify he is no longer listed as a member
+3. Open **Microsoft Entra Admin Center** → **Users** → select Bob Baker
+4. Go to **Revoke sessions** and confirm all active sessions are terminated
+5. Confirm under **Properties** that **Account enabled = No**
 
-9. Go to **Billing > Licenses**
-10. Locate Bob Baker's assigned license
-11. **Unassign the license** and confirm it has been removed
+6. Back in Microsoft 365 Admin Center → **Teams & Groups**
+7. Locate the shared mailbox → remove **Bob Baker** from membership
+8. Verify he is no longer listed
 
-12. Verify offboarding from the **admin side**: confirm sign-in is blocked, 
-shared mailbox access is removed, and license is unassigned
+9. Go to **Billing > Licenses** → locate Bob's license → **unassign it**
+10. Confirm the license has been removed
 
-13. Verify offboarding from the **user side**: attempt to sign in at office.com 
-using Bob Baker's credentials and confirm access is denied
+11. Verify from the **user side**: attempt to sign in at office.com with Bob's 
+credentials and confirm access is denied
 
 ## Expected Outcome
 
-- Bob Baker's sign-in is blocked
+- Sign-in is blocked and confirmed in both Admin Center and Entra
+- All active sessions are revoked
 - Shared mailbox access is removed
-- License is unassigned and returned to the available pool
-- Bob Baker can no longer access any Microsoft 365 services
+- License is unassigned
+- Bob Baker cannot access any Microsoft 365 services
 
 ## Skills Demonstrated
 
-- User offboarding in Microsoft 365 Admin Center
-- Blocking sign-in and managing account lifecycle
+- User offboarding across Microsoft 365 Admin Center and Entra Admin Center
+- Session revocation via Entra ID
 - Shared mailbox access removal
 - License unassignment and reclamation
-- Verifying offboarding from both admin and user perspectives
+- Cross-platform verification of offboarding status
 
 ## Security Considerations
 
-- Sign-in should be blocked as early as possible in the offboarding process
-- Shared mailbox access must be explicitly removed — it is not automatically revoked
-- License removal should follow the organization's mailbox retention requirements
-- Access removal should follow the principle of least privilege
+- Block sign-in first — before any other offboarding step
+- Revoking sessions in Entra ensures active tokens are invalidated immediately
+- Shared mailbox access is not automatically removed when sign-in is blocked
+- License removal should follow the organization's mailbox retention policy
 
 ## What I Learned
 
-- How to fully offboard a user in Microsoft 365 from sign-in blocking through 
-license removal
-- That shared mailbox access requires a separate removal step and is not 
-automatically revoked when a user is offboarded
+- How to offboard a user across both Microsoft 365 Admin Center and Entra Admin Center
+- That blocking sign-in alone is not enough — active sessions must also be revoked in Entra
+- That shared mailbox access requires a separate explicit removal step
 - How to verify offboarding from both the administrator and end-user perspective
-- The importance of treating offboarding as a security task, not just an 
-account cleanup
