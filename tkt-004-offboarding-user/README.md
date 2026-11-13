@@ -48,7 +48,6 @@ his license to complete a secure offboarding.
 <img width="496" height="713" alt="4 remove-user-from-shared-mailbox" src="https://github.com/user-attachments/assets/4fadee1e-10e5-403c-b21e-781d75194538" />
 
 
-
 8. Verify he is no longer listed
 
 <img width="676" height="288" alt="5 remove-from-group" src="https://github.com/user-attachments/assets/453ec8a8-971f-41ce-b360-d05e82429e81" />
